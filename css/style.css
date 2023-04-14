@@ -113,6 +113,7 @@ h6 a {
 
 a {
   font-family: 'Playfair Display', serif;
+
 }
 
 input::placeholder {
@@ -1624,10 +1625,18 @@ h3 {
   font-weight: 400;
   color: #fff;
   line-height: 1;
-  margin-top: 55px;
+  margin-top: 30px;
   margin-bottom: 40px;
+  padding-bottom: 60px;
 }
 
+
+@font-face {
+  font-family: 'Classica One';
+  src: local('Classica One'), local('ClassicaOne'), url('classicaone.woff2') format('woff2'), url('classicaone.woff') format('woff'), url('classicaone.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 
@@ -2939,7 +2948,7 @@ footer.light .footer-copyright{ background: none repeat scroll 0 0 rgba(255, 255
 .widget.no-box{ padding: 0; background-color: transparent; margin-bottom: 40px;
   box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
 .widget.subscribe p{ margin-bottom: 18px;}
-.widget li a{ color: #ff0000;
+.widget li a{ color: #ffffff;
   font-family:'Playfair Display',serif;
   font-size: 20px;
 }

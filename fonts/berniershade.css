@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Bernier Shade';
+    src: local('BERNIER Shade'), local('BERNIERShade-Regular'), url('Berniershade.woff2') format('woff2'), url('Berniershade.woff') format('woff'), url('Berniershade.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
